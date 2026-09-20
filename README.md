@@ -1,6 +1,6 @@
 # Beach-Adventure
 
-A CLI game where the player wakes up on a beach with no memory of what happened or how they got here.
+#### A CLI game where the player wakes up on a beach with no memory of what happened or how they got here.
 
 Written while learning Python (CS50 Introduction to Programming with Python: https://cs50.harvard.edu/python/)
 
