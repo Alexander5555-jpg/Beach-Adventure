@@ -54,27 +54,33 @@ def main():
     input("- A piece of paper with a strange symbol on it")
     print()
     input("You look around.")
-    print()
-    choice_1 = input("""
+
+    while True:
+        choice_1 = input("""
     What do you do?:
 
     1. Look at the ocean
     2. Explore the beach
     3. Enter the forest
     4. Examine the items in your pockets """).strip()
-    print()
-    
-    if choice_1 == "1":
-        print("Test, you picked 1") #TODO
-    elif choice_1 == "2":
-        print("Test, you picked 2") #TODO
-    elif choice_1 == "3":
-        print("Test, you picked 3") #TODO
-    elif choice_1 == "4":
-        print("Test, you picked 4") #TODO
-    else:
-        print("That's not an option right now " + player_name)
-
+        
+        print()
+        
+        if choice_1 == "1":
+            print("Test, you picked 1") #TODO
+            break
+        elif choice_1 == "2":
+            print("Test, you picked 2") #TODO
+            break
+        elif choice_1 == "3":
+            print("Test, you picked 3") #TODO
+            break
+        elif choice_1 == "4":
+            print("Test, you picked 4") #TODO
+            break
+        else:
+            print("That's not an option right now " + player_name)
+            continue    
 
 
 #TODO
@@ -82,3 +88,4 @@ def main():
     
 if __name__ == "__main__":
     main()
+ 

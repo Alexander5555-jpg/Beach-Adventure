@@ -11,8 +11,13 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 -
 
+## [0.1.1] - 26-09-2026
 
+### Added/Fixed
 
+- Now when a player picks an unavailable option the question repeats instead of ending the program 
+
+	
 	
 ## [0.1.0] - 20-09-2026
 
