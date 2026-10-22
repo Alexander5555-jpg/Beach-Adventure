@@ -8,6 +8,17 @@ Written while learning Python (CS50 Introduction to Programming with Python: htt
 
 See [CHANGELOG.md](CHANGELOG.md) for a history of changes.
 
+
+## Known Limitations
+
+- The game loops forever. There are no endings or ways to die yet.
+
+## Planned
+
+- Add endings and a game over state
+- Make the forest react to the lighter in your inventory
+
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).

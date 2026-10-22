@@ -23,69 +23,80 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-# This is where the game begins by asking the player for their name and their first choice.
+def say(text):
+    """Show a line of story, wait for enter, then add a blank line."""
+    input(text)
+    print()
+
+def look_at_ocean(player_name, inventory):
+    say("You walk to the edge of the water.")
+    say("The ocean is calm and endless.")
+    say("Something glints beneaththe surface...")
+
+def explore_beach(player_name, inventory):
+    say("You walk along the shoreline.")
+    say("(Test: nothin here yet.)")
+
+def enter_forest(player_name, inventory):
+    say("You step between the trees.")
+    say("(Test: nothin here yet.)")
+
+def examine_items(player_name, inventory):
+    say("You take out everything you found:")
+    for item in inventory:
+        say(f"- {item}")
+
+
+def intro():
+    story = [
+        "You wake up alone on a beach.",
+        "You don't remember:",
+        "- Who you are",
+        "- How you got here",
+        "- How long you've been unconscious.",
+        "You can see the ocean, a forest, some rocks, and something strange in the distance.",
+        "You check your pockets.",
+        "You find:",
+        "- A small rusty key",
+        "- A lighter",
+        "- A piece of paper with a strange symbol on it",
+        "You look around.",
+]
+    for line in story:
+        say(line)
 
 def main():
-
     player_name = input("What is your name?: ").strip().title()
     print()
-    input("[Press Enter to Continue]")
+    input("[Press the Enter to Continue]")
     print()
-    input("You wake up alone on a beach.")
-    print()
-    input("You don't remember:")
-    print()
-    input("- Who you are")
-    print()
-    input("- How you got here")
-    print()
-    input("- How long you've been unconscious")
-    print()
-    input("You can see the ocean, a forest, some rocks, and something strange in the distance.")
-    print()
-    input("You check your pockets.")
-    print()
-    input("You find:")
-    print()
-    input("- A small rusty key")
-    print()
-    input("- A lighter")
-    print()
-    input("- A piece of paper with a strange symbol on it")
-    print()
-    input("You look around.")
+
+    inventory = ["Small rusty key", "Lighter", "Paper with a strange symbol"]
+
+    intro()
 
     while True:
-        choice_1 = input("""
-    What do you do?:
-
-    1. Look at the ocean
-    2. Explore the beach
-    3. Enter the forest
-    4. Examine the items in your pockets """).strip()
+        choice = input("""What do you do?:
         
+1. Look at the ocean
+2. Explore the beach
+3. Enter the forest
+4. Examine the items in your pockets
+
+> """).strip()
         print()
-        
-        if choice_1 == "1":
-            print("Test, you picked 1") #TODO
-            break
-        elif choice_1 == "2":
-            print("Test, you picked 2") #TODO
-            break
-        elif choice_1 == "3":
-            print("Test, you picked 3") #TODO
-            break
-        elif choice_1 == "4":
-            print("Test, you picked 4") #TODO
-            break
+
+        if choice == "1":
+            look_at_ocean(player_name, inventory)
+        elif choice == "2":
+            explore_beach(player_name, inventory)
+        elif choice == "3":
+            enter_forest(player_name, inventory)
+        elif choice == "4":
+            examine_items(player_name, inventory)
         else:
-            print("That's not an option right now " + player_name)
-            continue    
+            print(f"That's not an option right now {player_name}.")
+            print()
 
-
-#TODO
-
-    
 if __name__ == "__main__":
     main()
- 
