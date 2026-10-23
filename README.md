@@ -6,6 +6,8 @@ Written while learning Python (CS50 Introduction to Programming with Python: htt
 
 
 
+
+
 **Latest (v0.1.2):** Inventory system + full rewrite using functions for each location
 
 
