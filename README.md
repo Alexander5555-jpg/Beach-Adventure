@@ -5,10 +5,9 @@
 Written while learning Python (CS50 Introduction to Programming with Python: https://cs50.harvard.edu/python/)
 
 
-
-
-
-**Latest (v0.1.2):** Inventory system + full rewrite using functions for each location
+## Latest (v0.1.2):
+- Inventory system
+- Full rewrite using functions for each location
 
 
 ## Changelog
