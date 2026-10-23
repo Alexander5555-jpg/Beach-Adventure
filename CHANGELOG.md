@@ -2,7 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [Unreleased] / Planned
+- Add endings and a game over state
+- Make the forest react to the lighter in your inventory
 
 ## [0.1.2] - 2026-10-23
 

@@ -4,6 +4,12 @@
 
 Written while learning Python (CS50 Introduction to Programming with Python: https://cs50.harvard.edu/python/)
 
+
+## Latest
+- Inventory system
+- Full rewrite
+
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a history of changes.
@@ -12,11 +18,6 @@ See [CHANGELOG.md](CHANGELOG.md) for a history of changes.
 ## Known Limitations
 
 - The game loops forever. There are no endings or ways to die yet.
-
-## Planned
-
-- Add endings and a game over state
-- Make the forest react to the lighter in your inventory
 
 
 ## License
