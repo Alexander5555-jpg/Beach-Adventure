@@ -3,9 +3,19 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased] / Planned
-- Add endings and a game over state
-- Make the forest react to the lighter in your inventory
+- Add more endings
 
+
+## [0.1.3] - 2026-11-08
+	
+### Added
+- New ending triggered when the player uses the lighter on the forest.
+
+### Changed
+- The program now exits after the ending,
+
+
+	
 ## [0.1.2] - 2026-10-23
 
 ### Added

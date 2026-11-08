@@ -5,19 +5,13 @@
 Written while learning Python (CS50 Introduction to Programming with Python: https://cs50.harvard.edu/python/)
 
 
-## Latest (v0.1.2):
-- Inventory system
-- Full rewrite using functions for each location
+## Latest (v0.1.3):
+- Added a new ending, setting the forest on fire. 
 
 
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a history of changes.
-
-
-## Known Limitations
-
-- The game loops forever. There are no endings or ways to die yet.
 
 
 ## License
